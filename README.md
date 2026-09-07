@@ -16,7 +16,10 @@ rest as unknown.
 people make out loud in a meeting transcript, and tracks each one until somebody closes
 it with a reason. Reads English and Hinglish, because most meetings in India are not
 held in one language. Runs entirely on your machine: no account, no API key, and no
-way to upload anything.
+way to upload anything. Version 0.2 was measured against 6,320 real meeting records —
+IETF working-group minutes and US congressional hearings — and the README carries the
+score, including the parts of it that are poor and the question the corpus could not
+answer.
 
 **[Show Your Work](https://github.com/Waiga/show-your-work)** — finds the numbers in a
 spreadsheet that nobody can explain: a formula someone typed over, a total that stops
