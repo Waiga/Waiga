@@ -18,8 +18,14 @@ it with a reason. Reads English and Hinglish, because most meetings in India are
 held in one language. Runs entirely on your machine: no account, no API key, and no
 way to upload anything.
 
-Both are built on the same rule. Absence of evidence is reported as unknown, never as
-a confirmed no, and neither tool claims a certainty it cannot support.
+**[Show Your Work](https://github.com/Waiga/show-your-work)** — finds the numbers in a
+spreadsheet that nobody can explain: a formula someone typed over, a total that stops
+one row short, a cell quietly doing something different from the column around it.
+It says which numbers the sheet cannot account for, never that a number is wrong.
+Local only, and cell contents stay out of the report unless you ask for them.
+
+All three are built on the same rule. Absence of evidence is reported as unknown, never
+as a confirmed no, and none of them claims a certainty it cannot support.
 
 ## Contributing
 
