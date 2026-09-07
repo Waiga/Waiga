@@ -1,5 +1,11 @@
 # Waiga Arya
 
+Director of Business Strategy and Innovation at Sadaway Pvt. Ltd., formerly Indus
+Cosmeceuticals. The company began in 1976 as a research and analytical laboratory in
+Faridabad, India, and today manufactures organic beauty and personal care products under
+Indus Valley Organic Beauty, MINA IBROW and Bio Organic, sold across India, the United
+States, Europe and Asia.
+
 I build tools for real-world operators.
 
 I set product direction, operating boundaries, and release standards. Public code and
@@ -35,11 +41,18 @@ was never removed, an earlier version of the document kept in the same file, an
 attached spreadsheet, a name left in the properties. It never says a file is safe to
 send, and it reports the places it could not see into separately from what it found.
 Local only, and what it finds stays out of the report unless you ask for it.
+`pip install before-you-send`
 
 Four tools, one rule. Each one reads something people already produce — a repository, a
 meeting, a spreadsheet, a document about to leave the building — and reports only what
 it can actually check. Absence of evidence is reported as unknown, never as a confirmed
 no, and none of them claims a certainty it cannot support.
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/in/waigaarya/)
+- On the Python Package Index: [unexplained-cells](https://pypi.org/project/unexplained-cells/)
+  and [before-you-send](https://pypi.org/project/before-you-send/)
 
 ## Contributing
 
