@@ -50,6 +50,7 @@ no, and none of them claims a certainty it cannot support.
 
 ## Elsewhere
 
+- [waiga.github.io](https://waiga.github.io) — who I am, in one page
 - [LinkedIn](https://www.linkedin.com/in/waigaarya/)
 - On the Python Package Index: [unexplained-cells](https://pypi.org/project/unexplained-cells/)
   and [before-you-send](https://pypi.org/project/before-you-send/)
