@@ -23,6 +23,8 @@ spreadsheet that nobody can explain: a formula someone typed over, a total that 
 one row short, a cell quietly doing something different from the column around it.
 It says which numbers the sheet cannot account for, never that a number is wrong.
 Local only, and cell contents stay out of the report unless you ask for them.
+`pip install unexplained-cells` — the command is still `show-your-work`; the plain
+name on the package index belongs to somebody else's project, so it was left alone.
 
 **[Before You Send](https://github.com/Waiga/before-you-send)** — reads a PDF and
 reports what is still inside it that you may not mean to send: text under a box that
