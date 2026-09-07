@@ -24,8 +24,17 @@ one row short, a cell quietly doing something different from the column around i
 It says which numbers the sheet cannot account for, never that a number is wrong.
 Local only, and cell contents stay out of the report unless you ask for them.
 
-All three are built on the same rule. Absence of evidence is reported as unknown, never
-as a confirmed no, and none of them claims a certainty it cannot support.
+**[Before You Send](https://github.com/Waiga/before-you-send)** — reads a PDF and
+reports what is still inside it that you may not mean to send: text under a box that
+was never removed, an earlier version of the document kept in the same file, an
+attached spreadsheet, a name left in the properties. It never says a file is safe to
+send, and it reports the places it could not see into separately from what it found.
+Local only, and what it finds stays out of the report unless you ask for it.
+
+Four tools, one rule. Each one reads something people already produce — a repository, a
+meeting, a spreadsheet, a document about to leave the building — and reports only what
+it can actually check. Absence of evidence is reported as unknown, never as a confirmed
+no, and none of them claims a certainty it cannot support.
 
 ## Contributing
 
