@@ -48,14 +48,28 @@ send, and it reports the places it could not see into separately from what it fo
 Local only, and what it finds stays out of the report unless you ask for it.
 `pip install before-you-send`
 
-Four tools, one rule. Each one reads something people already produce — a repository, a
-meeting, a spreadsheet, a document about to leave the building — and reports only what
-it can actually check. Absence of evidence is reported as unknown, never as a confirmed
+**[Says On The Tin](https://github.com/Waiga/says-on-the-tin)** — finds where a
+cosmetic label contradicts itself: a free-from claim on the front, and an ingredient
+on the back that breaks it. Paraben-free over a list containing methylparaben, vegan
+over carmine, sulphate-free over sodium laureth sulphate. It never says a product is
+compliant or clean — both halves it compares are printed on the same pack, so the
+finding is arithmetic rather than an opinion. It also reports what it deliberately did
+*not* count, because flagging cetearyl alcohol under an alcohol-free claim is how a
+tool like this loses a formulator in the first five minutes. Measured against 2,554
+real published labels, which showed that reading only English claims found none of the
+contradictions in the sample: they were on Portuguese, French, German, Italian and
+Dutch packs.
+
+Five tools, one rule. Each one reads something people already produce — a repository, a
+meeting, a spreadsheet, a document about to leave the building, a label about to be
+printed — and reports only what it can actually check. Absence of evidence is reported as unknown, never as a confirmed
 no, and none of them claims a certainty it cannot support.
 
 Each has now been run against real files it did not write, and each time that found
 things the tests did not. Those results are in the READMEs, including where the numbers
-are poor and what the measurement could not settle.
+are poor and what the measurement could not settle. The newest one was also handed to
+a reviewer told to attack it before release, which found five more; that is in its
+README too.
 
 ## Elsewhere
 
