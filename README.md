@@ -14,9 +14,14 @@ against those standards before publication.
 
 ## Current work
 
-**[Repo Scout](https://github.com/Waiga/repo-scout)** — evidence-led evaluation of
-public developer and AI tooling. Reports what the evidence supports, and reports the
-rest as unknown.
+**[Repo Scout](https://github.com/Waiga/repo-scout)** — reads a public GitHub
+repository and reports the static evidence about it: what it can check, what it
+could not establish, and how much of the repository it actually opened. Version 0.2
+was run against 385 real public repositories it did not author. Version 0.1 had been
+reading 8% of the bytes of a typical one, nothing at all in 15 of them, and reporting
+no findings either way; two of its four verdicts could never be produced by any input.
+The README carries the before and after, including the parts that did not improve and
+the directories it does not look in at all.
 
 **[Follow Through](https://github.com/Waiga/follow-through)** — finds the commitments
 people make out loud in a meeting transcript, and tracks each one until somebody closes
@@ -47,6 +52,10 @@ Four tools, one rule. Each one reads something people already produce — a repo
 meeting, a spreadsheet, a document about to leave the building — and reports only what
 it can actually check. Absence of evidence is reported as unknown, never as a confirmed
 no, and none of them claims a certainty it cannot support.
+
+Each has now been run against real files it did not write, and each time that found
+things the tests did not. Those results are in the READMEs, including where the numbers
+are poor and what the measurement could not settle.
 
 ## Elsewhere
 
