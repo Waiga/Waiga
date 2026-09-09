@@ -77,9 +77,21 @@ published labels. The prohibited check is wrong 9.3% of the time on one group an
 repeated-entry check is wrong 53% of the time on that corpus; both numbers are in the
 README, along with the one check the corpus could not measure at all.
 
-Six tools, one rule. Each one reads something people already produce — a repository, a
+**[Adds Up](https://github.com/Waiga/adds-up)** — reads a price list and reports
+the arithmetic in it that contradicts itself: a volume tier where buying more costs
+more per unit, the same item priced two different ways, a stated discount that does
+not reconcile with the prices beside it. It never says whether the pricing is right,
+because a price list states no cost and a tool that cannot see cost cannot see margin.
+Measured over 200 real hospital price files, 20.9 million rows, and 29,521 published
+utility tariffs. Hand-auditing the first run found a defect in the reader, not the
+checks: rows with an unquoted comma shift every column after the break, and the tool
+was reporting findings from them. One file supplied a third of a check's entire output
+that way. It is fixed, the rows are now set aside and counted, and the account of it is
+in the README because it is the strongest thing the measurement has to say.
+
+Seven tools, one rule. Each one reads something people already produce — a repository, a
 meeting, a spreadsheet, a document about to leave the building, a label about to be
-printed, an ingredient list about to be signed off — and reports only what it can
+printed, an ingredient list about to be signed off, a price list about to go out — and reports only what it can
 actually check. Absence of evidence is reported as unknown, never as a confirmed
 no, and none of them claims a certainty it cannot support.
 
