@@ -6,6 +6,11 @@ Faridabad, India, and today manufactures organic beauty and personal care produc
 Indus Valley Organic Beauty, MINA IBROW and Bio Organic, sold across India, the United
 States, Europe and Asia.
 
+I trained as a cosmetic scientist before moving to the commercial side of the
+industry, which is why I tend to argue about formulation and margin in the same
+meeting. I hold an MBA from the Yale School of Management, and before this role I
+worked in marketing and strategy at L'Oreal in Paris.
+
 I build tools for real-world operators.
 
 I set product direction, operating boundaries, and release standards. Public code and
