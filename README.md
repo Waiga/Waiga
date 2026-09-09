@@ -65,16 +65,31 @@ real published labels, which showed that reading only English claims found none 
 contradictions in the sample: they were on Portuguese, French, German, Italian and
 Dutch packs.
 
-Five tools, one rule. Each one reads something people already produce — a repository, a
+**[On The List](https://github.com/Waiga/on-the-list)** — reads a cosmetic
+ingredient list and reports what the EU's official annexes say about the ingredients
+on it: a name that matches the prohibited list, a colour printed out of position, the
+same ingredient entered twice. It is the first of these that checks a document against
+an outside official register rather than against itself, and the register is shipped
+inside the package, so nothing leaves the machine. It reports a match as a match and
+never as a compliance verdict, because an ingredient list states no concentrations and
+most annex entries carry a condition a label cannot answer. Measured over 16,635 real
+published labels. The prohibited check is wrong 9.3% of the time on one group and the
+repeated-entry check is wrong 53% of the time on that corpus; both numbers are in the
+README, along with the one check the corpus could not measure at all.
+
+Six tools, one rule. Each one reads something people already produce — a repository, a
 meeting, a spreadsheet, a document about to leave the building, a label about to be
-printed — and reports only what it can actually check. Absence of evidence is reported as unknown, never as a confirmed
+printed, an ingredient list about to be signed off — and reports only what it can
+actually check. Absence of evidence is reported as unknown, never as a confirmed
 no, and none of them claims a certainty it cannot support.
 
 Each has now been run against real files it did not write, and each time that found
 things the tests did not. Those results are in the READMEs, including where the numbers
-are poor and what the measurement could not settle. The newest one was also handed to
-a reviewer told to attack it before release, which found five more; that is in its
-README too.
+are poor and what the measurement could not settle. The two newest were handed to reviewers
+told to attack them before release. Between them those reviews found a check that
+exited clean over a label whose first ingredient was prohibited, two spellings of the
+same colourant given opposite answers, and four tests that would have passed with the
+code broken. All of it is in the READMEs and the commit messages.
 
 ## Elsewhere
 
