@@ -82,8 +82,9 @@ the arithmetic in it that contradicts itself: a volume tier where buying more co
 more per unit, the same item priced two different ways, a stated discount that does
 not reconcile with the prices beside it. It never says whether the pricing is right,
 because a price list states no cost and a tool that cannot see cost cannot see margin.
-Measured over 200 real hospital price files, 20.9 million rows, and 29,521 published
-utility tariffs. Hand-auditing the first run found a defect in the reader, not the
+Measured over 200 real hospital price files, 20,513,338 rows read and 190,549 set
+aside because their cell count did not match the header, and 29,521 published utility
+tariffs. Hand-auditing the first run found a defect in the reader, not the
 checks: rows with an unquoted comma shift every column after the break, and the tool
 was reporting findings from them. One file supplied a third of a check's entire output
 that way. It is fixed, the rows are now set aside and counted, and the account of it is
@@ -103,10 +104,19 @@ exited clean over a label whose first ingredient was prohibited, two spellings o
 same colourant given opposite answers, and four tests that would have passed with the
 code broken. All of it is in the READMEs and the commit messages.
 
+## Writing
+
+**[An ingredient list cannot tell you most of what you want to know](https://medium.com/@aryawaiga0/an-ingredient-list-cannot-tell-you-most-of-what-you-want-to-know-f3807f357837)**,
+September 2026. What 16,635 real published cosmetic labels say when they are checked
+against the European Commission's own register, why more than half the prohibited-list
+matches turn on a condition an ingredient list cannot answer, and the checks my own tool
+gets wrong, including one it gets wrong more than half the time.
+
 ## Elsewhere
 
 - [waiga.github.io](https://waiga.github.io) — who I am, in one page
 - [LinkedIn](https://www.linkedin.com/in/waigaarya/)
+- [Medium](https://medium.com/@aryawaiga0)
 - On the Python Package Index: [unexplained-cells](https://pypi.org/project/unexplained-cells/)
   and [before-you-send](https://pypi.org/project/before-you-send/)
 
