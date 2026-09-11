@@ -35,7 +35,7 @@ held in one language. Runs entirely on your machine: no account, no API key, and
 way to upload anything. Version 0.2 was measured against 6,320 real meeting records —
 IETF working-group minutes and US congressional hearings — and the README carries the
 score, including the parts of it that are poor and the question the corpus could not
-answer.
+answer. `pip install follow-through`
 
 **[Show Your Work](https://github.com/Waiga/show-your-work)** — finds the numbers in a
 spreadsheet that nobody can explain: a formula someone typed over, a total that stops
@@ -63,7 +63,7 @@ finding is arithmetic rather than an opinion. It also reports what it deliberate
 tool like this loses a formulator in the first five minutes. Measured against 2,554
 real published labels, which showed that reading only English claims found none of the
 contradictions in the sample: they were on Portuguese, French, German, Italian and
-Dutch packs.
+Dutch packs. `pip install says-on-the-tin`
 
 **[On The List](https://github.com/Waiga/on-the-list)** — reads a cosmetic
 ingredient list and reports what the EU's official annexes say about the ingredients
@@ -76,6 +76,7 @@ most annex entries carry a condition a label cannot answer. Measured over 16,635
 published labels. The prohibited check is wrong 9.3% of the time on one group and the
 repeated-entry check is wrong 53% of the time on that corpus; both numbers are in the
 README, along with the one check the corpus could not measure at all.
+`pip install on-the-list`
 
 **[Adds Up](https://github.com/Waiga/adds-up)** — reads a price list and reports
 the arithmetic in it that contradicts itself: a volume tier where buying more costs
@@ -89,6 +90,7 @@ checks: rows with an unquoted comma shift every column after the break, and the 
 was reporting findings from them. One file supplied a third of a check's entire output
 that way. It is fixed, the rows are now set aside and counted, and the account of it is
 in the README because it is the strongest thing the measurement has to say.
+`pip install adds-up`
 
 Seven tools, one rule. Each one reads something people already produce — a repository, a
 meeting, a spreadsheet, a document about to leave the building, a label about to be
@@ -117,8 +119,12 @@ gets wrong, including one it gets wrong more than half the time.
 - [waiga.github.io](https://waiga.github.io) — who I am, in one page
 - [LinkedIn](https://www.linkedin.com/in/waigaarya/)
 - [Medium](https://medium.com/@aryawaiga0)
-- On the Python Package Index: [unexplained-cells](https://pypi.org/project/unexplained-cells/)
-  and [before-you-send](https://pypi.org/project/before-you-send/)
+- On the Python Package Index: [adds-up](https://pypi.org/project/adds-up/),
+  [before-you-send](https://pypi.org/project/before-you-send/),
+  [follow-through](https://pypi.org/project/follow-through/),
+  [on-the-list](https://pypi.org/project/on-the-list/),
+  [says-on-the-tin](https://pypi.org/project/says-on-the-tin/) and
+  [unexplained-cells](https://pypi.org/project/unexplained-cells/)
 
 ## Contributing
 
