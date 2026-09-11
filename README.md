@@ -72,10 +72,13 @@ same ingredient entered twice. It is the first of these that checks a document a
 an outside official register rather than against itself, and the register is shipped
 inside the package, so nothing leaves the machine. It reports a match as a match and
 never as a compliance verdict, because an ingredient list states no concentrations and
-most annex entries carry a condition a label cannot answer. Measured over 16,635 real
-published labels. The prohibited check is wrong 9.3% of the time on one group and the
-repeated-entry check is wrong 53% of the time on that corpus; both numbers are in the
-README, along with the one check the corpus could not measure at all.
+most annex entries carry a condition a label cannot answer. The pinned corpus run
+selected 16,635 published labels. An exhaustive review of the 19 Annex II entries
+behind 1,066 unconditional prohibited findings found one overbroad mapping responsible
+for 99 findings. In a seeded sample of 30 repeated entry findings, 21 were false
+positives and 9 correctly described a repeated normalized name in the recorded text.
+This is a sample result, not a population rate. The warning wording check could not be
+measured with this corpus. The README publishes the method, findings, and limits.
 `pip install on-the-list`
 
 **[Adds Up](https://github.com/Waiga/adds-up)** reads a price list and reports
@@ -98,21 +101,19 @@ printed, an ingredient list about to be signed off, a price list about to go out
 reports only what it can actually check. Absence of evidence is reported as unknown, never as a confirmed
 no, and none of them claims a certainty it cannot support.
 
-Each has now been run against real files it did not write, and each time that found
-things the tests did not. Those results are in the READMEs, including where the numbers
-are poor and what the measurement could not settle. The two newest were handed to reviewers
-told to attack them before release. Between them those reviews found a check that
-exited clean over a label whose first ingredient was prohibited, two spellings of the
-same colourant given opposite answers, and four tests that would have passed with the
-code broken. All of it is in the READMEs and the commit messages.
+The On The List README records two defects from its real label work. One input path
+exited clean when a prohibited ingredient appeared first, and two print orders of the
+same colourant received opposite answers. Both examples and their fixes are documented
+there.
 
 ## Writing
 
 **[An ingredient list cannot tell you most of what you want to know](https://medium.com/@aryawaiga0/an-ingredient-list-cannot-tell-you-most-of-what-you-want-to-know-f3807f357837)**,
 September 2026. What 16,635 real published cosmetic labels say when they are checked
 against the European Commission's own register, why more than half the prohibited-list
-matches turn on a condition an ingredient list cannot answer, and the checks my own tool
-gets wrong, including one it gets wrong more than half the time.
+matches turn on a condition an ingredient list cannot answer, and what a hand audit of
+30 repeated entry findings found, including 21 false positives and the limits of that
+sample.
 
 ## Elsewhere
 
