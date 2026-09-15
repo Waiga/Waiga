@@ -12,9 +12,8 @@ meeting. I hold an MBA from the Yale School of Management, and before this role 
 worked in marketing and strategy at L'Oreal in Paris.
 
 I direct the building of small tools that check what people already produce, from
-meeting transcripts to price lists. I decide what each tool has to prove before
-release, which real files it is measured against, and that the results which do not
-flatter it are published. AI agents write the code and the documentation.
+meeting transcripts to price lists. For each tool I decide which real files it is measured against, and that the
+results which do not flatter it are published beside the rest. AI agents write the code and the documentation.
 
 ## Current work
 
