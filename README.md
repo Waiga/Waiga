@@ -106,6 +106,9 @@ there.
 
 ## Writing
 
+**[Thirty correct findings, and only one looked like a mistake](https://medium.com/@aryawaiga0/thirty-correct-findings-and-only-one-looked-like-a-mistake-06b722abf816)**,
+September 2026. What a small price list checker found when it met 29,521 published tariff price lists and 200 hospital charge files: thirty hand checked findings all correct, only one of them looking like a real mistake, and the defects the real files exposed that its tests never did.
+
 **[An ingredient list cannot tell you most of what you want to know](https://medium.com/@aryawaiga0/an-ingredient-list-cannot-tell-you-most-of-what-you-want-to-know-f3807f357837)**,
 September 2026. What 16,635 real published cosmetic labels say when they are checked
 against the European Commission's own register, why more than half the prohibited-list
