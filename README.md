@@ -11,11 +11,9 @@ industry, which is why I tend to argue about formulation and margin in the same
 meeting. I hold an MBA from the Yale School of Management, and before this role I
 worked in marketing and strategy at L'Oreal in Paris.
 
-I direct the building of tools for real-world operators.
-
-I set product direction, operating boundaries, and release standards. Public code and
-documentation are AI-assisted and reviewed, and every proposed release is checked
-against those standards before publication.
+I direct the building of small tools that check what people already produce, from
+meeting transcripts to price lists. For each tool I decide which real files it is measured against, and that the
+results which do not flatter it are published beside the rest. AI agents write the code and the documentation.
 
 ## Current work
 
