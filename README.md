@@ -41,7 +41,8 @@ one row short, a cell quietly doing something different from the column around i
 It says which numbers the sheet cannot account for, never that a number is wrong.
 Local only, and cell contents stay out of the report unless you ask for them.
 `pip install unexplained-cells`, though the command is still `show-your-work`. The
-plain name on the package index belongs to somebody else's project, so it was left alone.
+package index refused the plain name as too similar to showyourwork, an established and
+unrelated project, so this one carries a name of its own rather than a near-miss beside theirs.
 
 **[Before You Send](https://github.com/Waiga/before-you-send)** reads a PDF and
 reports what is still inside it that you may not mean to send: text under a box that
