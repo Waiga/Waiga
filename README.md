@@ -107,6 +107,7 @@ a concentration. Measured against 17,595 published ingredient lists, of which
 the substances came from a labelling rule, so finding them on a label meant
 finding products doing what the rule asks, not products facing a deadline. Two
 further corrections, each also in the tool's favour, are in the README.
+`pip install on-notice`
 
 Eight tools, one rule. Each one reads something people already produce: a repository, a
 meeting, a spreadsheet, a document about to leave the building, a label about to be
