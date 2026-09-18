@@ -94,9 +94,24 @@ that way. It is fixed, the rows are now set aside and counted, and the account o
 in the README because it is the strongest thing the measurement has to say.
 `pip install adds-up`
 
-Seven tools, one rule. Each one reads something people already produce: a repository, a
+**[On Notice](https://github.com/Waiga/on-notice)** reads a cosmetic ingredient
+list and reports which ingredients on it are named in an EU rule that carries a
+date still ahead of it. The others check what is wrong with a document today;
+reformulation takes the better part of a year, so the question that costs money
+is what becomes wrong while the stock is still on the shelf. It reports dates and
+never a verdict on whether a product may be sold, because an ingredient list
+states no concentrations and every one of these rules catches products that miss
+a concentration. Measured against 17,595 published ingredient lists, of which
+17.3% name a substance carrying a date that has not arrived. That figure was
+44.0% on the first run and the difference is the whole story: around fifty of
+the substances came from a labelling rule, so finding them on a label meant
+finding products doing what the rule asks, not products facing a deadline. Two
+further corrections, each also in the tool's favour, are in the README.
+
+Eight tools, one rule. Each one reads something people already produce: a repository, a
 meeting, a spreadsheet, a document about to leave the building, a label about to be
-printed, an ingredient list about to be signed off, a price list about to go out. It
+printed, an ingredient list about to be signed off, a price list about to go out, a
+formulation with a deadline attached to it. It
 reports only what it can actually check. Absence of evidence is reported as unknown, never as a confirmed
 no, and none of them claims a certainty it cannot support.
 
