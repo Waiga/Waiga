@@ -123,6 +123,9 @@ there.
 
 ## Writing
 
+**[676 published documents kept their own history. Six kept different words](https://medium.com/@aryawaiga0/676-published-documents-kept-their-own-history-six-kept-different-words-3574da378b63)**,
+September 2026. 838 published PDFs from the US Federal Register, gov.uk, the WHO and arXiv, and how much of its own past each one still carries. 676 keep an earlier version of something. Only six keep different words. Also why every Federal Register document looks alarming and none of them is, and the two wrong numbers that had to die before the six could be trusted.
+
 **[Lawful today, and non-compliant on 1 January 2027](https://medium.com/@aryawaiga0/lawful-today-and-non-compliant-on-1-january-2027-6939bdbee908)**,
 September 2026. A rule adopted in April 2026 starts applying on 1 January 2027, and 3,050 of 17,595 published cosmetic ingredient lists already name a substance it restricts. Also the three readings of the law that had to be corrected before that number could be trusted, each of which had made the tool look better than it was.
 
