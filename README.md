@@ -144,6 +144,7 @@ sample.
 - On the Python Package Index: [adds-up](https://pypi.org/project/adds-up/),
   [before-you-send](https://pypi.org/project/before-you-send/),
   [follow-through](https://pypi.org/project/follow-through/),
+  [on-notice](https://pypi.org/project/on-notice/),
   [on-the-list](https://pypi.org/project/on-the-list/),
   [says-on-the-tin](https://pypi.org/project/says-on-the-tin/) and
   [unexplained-cells](https://pypi.org/project/unexplained-cells/)
