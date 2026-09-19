@@ -123,6 +123,9 @@ there.
 
 ## Writing
 
+**[Lawful today, and non-compliant on 1 January 2027](https://medium.com/@aryawaiga0/lawful-today-and-non-compliant-on-1-january-2027-6939bdbee908)**,
+September 2026. A rule adopted in April 2026 starts applying on 1 January 2027, and 3,050 of 17,595 published cosmetic ingredient lists already name a substance it restricts. Also the three readings of the law that had to be corrected before that number could be trusted, each of which had made the tool look better than it was.
+
 **[Thirty correct findings, and only one looked like a mistake](https://medium.com/@aryawaiga0/thirty-correct-findings-and-only-one-looked-like-a-mistake-06b722abf816)**,
 September 2026. What a small price list checker found when it met 29,521 published tariff price lists and 200 hospital charge files: thirty hand checked findings all correct, only one of them looking like a real mistake, and the defects the real files exposed that its tests never did.
 
