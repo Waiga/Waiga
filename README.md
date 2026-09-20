@@ -17,14 +17,14 @@ results which do not flatter it are published beside the rest. AI agents write t
 
 ## Current work
 
-**[Repo Scout](https://github.com/Waiga/repo-scout)** reads a public GitHub
+**[Kick The Tyres](https://github.com/Waiga/repo-scout)** reads a public GitHub
 repository and reports the static evidence about it: what it can check, what it
 could not establish, and how much of the repository it actually opened. Version 0.2
 was run against 385 real public repositories it did not author. Version 0.1 had been
 reading 8% of the bytes of a typical one, nothing at all in 15 of them, and reporting
 no findings either way; two of its four verdicts could never be produced by any input.
 The README carries the before and after, including the parts that did not improve and
-the directories it does not look in at all.
+the directories it does not look in at all. `pip install kick-the-tyres`
 
 **[Follow Through](https://github.com/Waiga/follow-through)** finds the commitments
 people make out loud in a meeting transcript, and tracks each one until somebody closes
@@ -40,9 +40,7 @@ spreadsheet that nobody can explain: a formula someone typed over, a total that 
 one row short, a cell quietly doing something different from the column around it.
 It says which numbers the sheet cannot account for, never that a number is wrong.
 Local only, and cell contents stay out of the report unless you ask for them.
-`pip install unexplained-cells`, though the command is still `show-your-work`. The
-package index refused the plain name as too similar to showyourwork, an established and
-unrelated project, so this one carries a name of its own rather than a near-miss beside theirs.
+`pip install unexplained-cells`, and the command is `show-your-work`.
 
 **[Before You Send](https://github.com/Waiga/before-you-send)** reads a PDF and
 reports what is still inside it that you may not mean to send: text under a box that
@@ -147,6 +145,7 @@ sample.
 - On the Python Package Index: [adds-up](https://pypi.org/project/adds-up/),
   [before-you-send](https://pypi.org/project/before-you-send/),
   [follow-through](https://pypi.org/project/follow-through/),
+  [kick-the-tyres](https://pypi.org/project/kick-the-tyres/),
   [on-notice](https://pypi.org/project/on-notice/),
   [on-the-list](https://pypi.org/project/on-the-list/),
   [says-on-the-tin](https://pypi.org/project/says-on-the-tin/) and
