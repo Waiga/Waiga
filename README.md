@@ -17,7 +17,7 @@ results which do not flatter it are published beside the rest. AI agents write t
 
 ## Current work
 
-**[Kick The Tyres](https://github.com/Waiga/repo-scout)** reads a public GitHub
+**[Kick The Tyres](https://github.com/Waiga/kick-the-tyres)** reads a public GitHub
 repository and reports the static evidence about it: what it can check, what it
 could not establish, and how much of the repository it actually opened. Version 0.2
 was run against 385 real public repositories it did not author. Version 0.1 had been
