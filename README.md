@@ -3,8 +3,7 @@
 Director of Business Strategy and Innovation at Sadaway Pvt. Ltd., formerly Indus
 Cosmeceuticals. The company began in 1976 as a research and analytical laboratory in
 Faridabad, India, and today manufactures organic beauty and personal care products under
-Indus Valley Organic Beauty, MINA IBROW and Bio Organic, sold across India, the United
-States, Europe and Asia.
+Indus Valley Organic Beauty, MINA IBROW and Bio Organic.
 
 I trained as a cosmetic scientist before moving to the commercial side of the
 industry, which is why I tend to argue about formulation and margin in the same
@@ -120,6 +119,9 @@ same colourant received opposite answers. Both examples and their fixes are docu
 there.
 
 ## Writing
+
+**[Two of my scanner's four verdicts were impossible to reach](https://medium.com/@aryawaiga0/two-of-my-scanners-four-verdicts-were-impossible-to-reach-cecc6a853e8a)**,
+September 2026. A repository scanner that was opening 8.3% of the bytes of the median repository and reporting nothing found, and why those two reports look identical to a reader. Also the enumeration of 3,359,232 input combinations that showed two of its four verdicts could never be printed by any command in it, and the README that was honest about one of those two and wrong about the other.
 
 **[676 published documents kept their own history. Six kept different words](https://medium.com/@aryawaiga0/676-published-documents-kept-their-own-history-six-kept-different-words-3574da378b63)**,
 September 2026. 838 published PDFs from the US Federal Register, gov.uk, the WHO and arXiv, and how much of its own past each one still carries. 676 keep an earlier version of something. Only six keep different words. Also why every Federal Register document looks alarming and none of them is, and the two wrong numbers that had to die before the six could be trusted.
