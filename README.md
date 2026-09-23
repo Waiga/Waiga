@@ -120,6 +120,9 @@ there.
 
 ## Writing
 
+**[Every fixture in the suite used a classic xref table](https://medium.com/@aryawaiga0/every-fixture-in-the-suite-used-a-classic-xref-table-bb0cc0addda2)**,
+September 2026. All eight tools below, set beside each other: each had a test suite that passed, each was wrong anyway once it met files nobody involved had chosen. Six of the eight can show that from the repository alone and two cannot, and the piece names which two and why. Also the five kinds of blindness the failures sort into, the one kind real files rarely catch because a silent tool looks the same either way, and the disclosure that these tools were built with an AI assistant, recorded on 146 of their 148 commits.
+
 **[Two of my scanner's four verdicts were impossible to reach](https://medium.com/@aryawaiga0/two-of-my-scanners-four-verdicts-were-impossible-to-reach-cecc6a853e8a)**,
 September 2026. A repository scanner that was opening 8.3% of the bytes of the median repository and reporting nothing found, and why those two reports look identical to a reader. Also the enumeration of 3,359,232 input combinations that showed two of its four verdicts could never be printed by any command in it, and the README that was honest about one of those two and wrong about the other.
 
