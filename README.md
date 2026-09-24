@@ -16,6 +16,16 @@ results which do not flatter it are published beside the rest. AI agents write t
 
 ## Current work
 
+**[Said Who](https://github.com/Waiga/said-who)** is a memory store for AI agents that
+refuses to save a claim about what a person decided unless it can point at a real message
+that person actually typed and quote their words back. It exists because an agent wrote a
+business target into my decision log that I had never said, and four more agents read it
+and repeated it. It supports Claude Code and nothing else, which the front page says in
+its first paragraph. Run against 893 real transcripts it did not author: 1,313 human turns
+all resolved, and 693 forgery attempts across four classes all refused. That corpus also
+found a defect the tests could not, because every fixture was a full sentence and real
+people send one word replies, so a quote short enough to guess was passing as proof.
+
 **[Kick The Tyres](https://github.com/Waiga/kick-the-tyres)** reads a public GitHub
 repository and reports the static evidence about it: what it can check, what it
 could not establish, and how much of the repository it actually opened. Version 0.2
@@ -106,7 +116,8 @@ finding products doing what the rule asks, not products facing a deadline. Two
 further corrections, each also in the tool's favour, are in the README.
 `pip install on-notice`
 
-Eight tools, one rule. Each one reads something people already produce: a repository, a
+Said Who is the odd one out and the newest. The other eight share one rule. Each of them
+reads something people already produce: a repository, a
 meeting, a spreadsheet, a document about to leave the building, a label about to be
 printed, an ingredient list about to be signed off, a price list about to go out, a
 formulation with a deadline attached to it. It
