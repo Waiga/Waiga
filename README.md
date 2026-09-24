@@ -25,6 +25,7 @@ its first paragraph. Run against 893 real transcripts it did not author: 1,313 h
 all resolved, and 693 forgery attempts across four classes all refused. That corpus also
 found a defect the tests could not, because every fixture was a full sentence and real
 people send one word replies, so a quote short enough to guess was passing as proof.
+`pip install said-who`
 
 **[Kick The Tyres](https://github.com/Waiga/kick-the-tyres)** reads a public GitHub
 repository and reports the static evidence about it: what it can check, what it
