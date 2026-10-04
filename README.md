@@ -132,6 +132,9 @@ there.
 
 ## Writing
 
+**[A fresh AI memory can still be false](https://medium.com/@aryawaiga0/a-fresh-ai-memory-can-still-be-false-4a5372532f09)**,
+October 2026. Why freshness cannot repair false provenance at creation, what Said Who refuses, what it still cannot prove about interpretation, and why its own public example had to be corrected before this story was published.
+
 **[Every fixture in the suite used a classic xref table](https://medium.com/@aryawaiga0/every-fixture-in-the-suite-used-a-classic-xref-table-bb0cc0addda2)**,
 September 2026. All eight tools below, set beside each other: each had a test suite that passed, each was wrong anyway once it met files nobody involved had chosen. Six of the eight can show that from the repository alone and two cannot, and the piece names which two and why. Also the five kinds of blindness the failures sort into, the one kind real files rarely catch because a silent tool looks the same either way, and the disclosure that these tools were built with an AI assistant, recorded on 146 of their 148 commits.
 
